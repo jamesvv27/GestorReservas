@@ -71,4 +71,12 @@ public class Habitacion
         }
     }
     
+   @Override
+   public String toString() {
+       return "Habitacion{ \nNumero habitacion: " + numeroHabitacion +
+               "\nNumero ocupantes: " + numeroOcupantes +
+               "\nEstado habitacion: " + estadoHabitacion +
+               "\nTipo Habitacion: " + tipoHabitacion +"\n}";
+   }
+    
 }
